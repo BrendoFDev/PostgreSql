@@ -166,11 +166,12 @@ namespace PostgreSqlTeste
                         txtbairro.Text = resultado.bairro;
                         txtestado.Text = resultado.uf;
                         txtrua.Text = resultado.end;
+                        
                     }
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Exceção ocorreu:" + ex.Message,"Error!",MessageBoxButtons.OK,MessageBoxIcon.Warning);
+                    MessageBox.Show("Exceção Ocorreu Demais:" + ex.Message,"Error!",MessageBoxButtons.OK,MessageBoxIcon.Warning);
                 }
             }
             else
