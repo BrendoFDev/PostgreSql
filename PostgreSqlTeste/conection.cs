@@ -12,7 +12,7 @@ namespace PostgreSqlTeste
         public string Conexao(out bool conectado)
         {
             string msg;
-            NpgsqlConnection con = new NpgsqlConnection("Server=Localhost;Username=postgres;Port=5432;Password=SOFTLOG;Database=CodeWave");
+            NpgsqlConnection con = new NpgsqlConnection("Server=Localhost;Username=;Port=5432;Password=;Database=CodeWave");
 
             try
             {
